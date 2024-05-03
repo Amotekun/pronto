@@ -3,8 +3,6 @@ import { checkSubscription } from "@/lib/subscription";
 import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
-import { ChatCompletionMessage } from "openai/resources/index.mjs";
-
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY
 });
