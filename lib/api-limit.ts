@@ -15,6 +15,8 @@ export const incrementApiLimit = async () => {
         }
     });
 
+    console.log(userApiLimit);
+
     if (userApiLimit) {
         await db.userApiLimit.update({
             where: {
