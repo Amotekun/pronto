@@ -192,7 +192,7 @@ const CodePage = () => {
                     </div>
                 )}
                 {photos.length === 0 && !isLoading && (
-                    <Empty label="No conversations started." /  >
+                    <Empty label="No conversations started." />
                 )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-8">
                     {photos.map((photo) => (
